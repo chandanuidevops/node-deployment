@@ -3,7 +3,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const Book =require('./models/books')
 const app = express()
-const PORT = process.env.PORT|| 3000
+const PORT = process.env.PORT|| 4000
 mongoose.set('strictQuery',false)
 const connectDB=async()=>{
     try {
